@@ -1,5 +1,9 @@
 .div1header{
-    height:15vh;
+    height:20vh;
+}
+
+.headerh1{
+    padding-top:10px !important;
 }
 
 .headerh2{
@@ -23,7 +27,7 @@
     25% {content: 'Geek'; font-size:0.8em; color: #dddddd;}
     50% {content: 'roliste'; font-size:0.8em; color: #dddddd;}
     75% {content: 'cinephile'; font-size:0.8em; color: #dddddd;}
-    100% {content: 'Developpeur Web Junior';     color: #f05454; margin-left:15vw; font-size:1em
+    100% {content: 'Developpeur Web Junior';     color: #f05454; margin-left:15vw; font-size:1em;
     }
     
 }
@@ -393,7 +397,7 @@ to {
 
 /* Footer */
 
-.foot1{
+.foott1{
     background-color : #222831;
     text-align: center;
     color: #f05454;
@@ -405,6 +409,10 @@ to {
     justify-content: center;
     font-family: Indie Flower;
 }
+.foott2{
+    Display: none;
+}
+
 .foot2{
     background-color : #f05454;
     height : 100px;
