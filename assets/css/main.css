@@ -55,6 +55,7 @@
 .butnav{
     font-family: Indie Flower;
     font-size:1.2em;
+    font-weight: bold;
 }
 
 
@@ -398,6 +399,7 @@ to {
     color: #f05454;
     font-size:0.9em;
     height : 30px;
+    font-weight: bold;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -416,10 +418,19 @@ to {
 .footp{
     font-size: 1.5em;
     font-family: Indie Flower;
+    font-weight: bold;
     margin-bottom:inherit;
 }
 
 .logo{
     color: #222831;
     font-size:2em;
+}
+.logo:hover{
+    color: white;
+    transition: 0.5s;
+}
+.form2{
+    margin-left: auto;
+    margin-right: auto;
 }
