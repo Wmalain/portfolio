@@ -68,6 +68,7 @@
   </div>
 
 
+  <h2 class="hcomp">Front</h2>
   <div class="tab-pane fade" id="connaissance" role="tabpanel" aria-labelledby="connaissance-tab">
   <center class="skills">
         <div class="SkillBar">
@@ -79,11 +80,10 @@
   
     <div class="SkillBar">
         <div id="Skill-CSS">
-        <span class="Skill-Area ">CSS/CSS3</span>
+        <span class="Skill-Area ">CSS/SASS</span>
         <span class="PercentText ">90%</span>
         </div>
     </div>
-
     <div class="SkillBar">
         <div id="Skill-jQuery">
             <span class="Skill-Area ">jQuery</span>
@@ -97,16 +97,22 @@
             <span class="PercentText ">60%</span>
         </div>
     </div>
-  
 
-  
     <div class="SkillBar">
+        <div id="Skill-AJAX">
+            <span class="Skill-Area ">AJAX</span>
+            <span class="PercentText ">50%</span>
+        </div>
+    </div>
+
+  <h2 class="hcomp">Back</h2>
+
+  <div class="SkillBar">
         <div id="Skill-PHP">
             <span class="Skill-Area ">PHP </span>
             <span class="PercentText ">80%</span>
         </div>
     </div>
-  
     <div class="SkillBar">
         <div id="Skill-SQL">
             <span class="Skill-Area ">SQL </span>
@@ -114,12 +120,36 @@
         </div>
     </div>
 
+  <h2 class="hcomp">Framework</h2>
+    
+  
     <div class="SkillBar">
         <div id="Skill-BOOTS">
             <span class="Skill-Area ">BOOTSTRAP </span>
             <span class="PercentText ">70%</span>
         </div>
     </div>
+
+
+    <div class="SkillBar">
+        <div id="Skill-GULP">
+            <span class="Skill-Area ">GULP</span>
+            <span class="PercentText ">50%</span>
+        </div>
+    </div>
+
+  
+    <div class="SkillBar">
+        <div id="Skill-SYNF">
+            <span class="Skill-Area ">SYNFONY</span>
+            <span class="PercentText ">50%</span>
+        </div>
+    </div>
+  
+
+   
+
+    
     </center>      
 
   </div>

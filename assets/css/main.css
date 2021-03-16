@@ -1,3 +1,11 @@
+
+button, input, select, textarea{
+    outline: none !important;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+
 .div1header{
     height:20vh;
 }
@@ -58,10 +66,15 @@
 
 .butnav{
     font-family: Indie Flower;
-    font-size:1.2em;
+    font-size:1.1em;
     font-weight: bold;
 }
+.butnav:hover{
+    border:  #f05454 !important;
+    font-size: 1.2em;
+    transition: 0.8s;
 
+}
 
 .liheader{
     /* margin : 0 5vw; */
@@ -101,8 +114,18 @@ margin-bottom:100px;
 
 
 /* Skill */
+
+.hcomp{
+    
+    font-family: Indie Flower;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: #222831;
+    margin: 15px auto;
+}
+
 .skills{
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 #SkillBox {
@@ -269,6 +292,75 @@ to {
 }
 to {
     width: 60%}
+}#Skill-AJAX {
+    animation: Animate-AJAX 3s;
+    -webkit-animation: Animate-AJAX 3s;
+    -moz-animation: Animate-AJAX 3s;
+    -o-animation: Animate-AJAX 3s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #9e577b;
+}
+@keyframes Animate-AJAX {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-AJAX {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-AJAX {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-AJAX {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}
+#Skill-GULP {
+    animation: Animate-GULP 4s;
+    -webkit-animation: Animate-GULP 4s;
+    -moz-animation: Animate-GULP 4s;
+    -o-animation: Animate-GULP 4s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #899026;
+}
+@keyframes Animate-GULP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-GULP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-GULP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-GULP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
 }#Skill-PHP {
     animation: Animate-PHP 4s;
     -webkit-animation: Animate-PHP 4s;
@@ -278,8 +370,7 @@ to {
     height: 50px;
     position: absolute;
     background-color: #5A69A6;
-}
-@keyframes Animate-PHP {
+}@keyframes Animate-PHP {
     from {
     width: 10px;
 }
@@ -303,6 +394,39 @@ to {
 }
 to {
     width: 80%}
+}#Skill-SYNF {
+    animation: Animate-SYNF 4s;
+    -webkit-animation: Animate-SYNF 4s;
+    -moz-animation: Animate-SYNF 4s;
+    -o-animation: Animate-SYNF 4s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #538574;
+}@keyframes Animate-SYNF {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-SYNF {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-SYNF {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-SYNF {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
 }#Skill-SQL {
     animation: Animate-SQL 4s;
     -webkit-animation: Animate-SQL 4s;
