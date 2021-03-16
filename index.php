@@ -26,14 +26,14 @@
   <li class="nav-item" role="presentation">
     <button class="nav-link active butnav" id="Presentation-tab" data-bs-toggle="tab" data-bs-target="#Presentation" type="button" role="tab" aria-controls="Presentation" aria-selected="true">Presentation</button>
   </li>
-  <li class="nav-item butnav" role="presentation">
-    <button class="nav-link" id="projets-tab" data-bs-toggle="tab" data-bs-target="#projets" type="button" role="tab" aria-controls="projets" aria-selected="false">Projets</button>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link butnav" id="projets-tab" data-bs-toggle="tab" data-bs-target="#projets" type="button" role="tab" aria-controls="projets" aria-selected="false">Projets</button>
   </li>
-  <li class="nav-item butnav" role="presentation">
-    <button class="nav-link" id="connaissance-tab" data-bs-toggle="tab" data-bs-target="#connaissance" type="button" role="tab" aria-controls="connaissance" aria-selected="false">Connaissances</button>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link butnav" id="connaissance-tab" data-bs-toggle="tab" data-bs-target="#connaissance" type="button" role="tab" aria-controls="connaissance" aria-selected="false">Connaissances</button>
   </li>
-  <li class="nav-item butnav" role="presentation">
-    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link butnav" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
   </li>
 </ul>
 </header>
@@ -126,18 +126,18 @@
 
   <div class="tab-pane fade " id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
-  <div class="container">
-	<div class="row">
-      <div class="col-md-6 col-md-offset-3">
+  <div class="container form">
+	<div class="row justify-content-center">
+      <div class="col-md-6 col-md-offset-6 ">
         <div class="well well-sm">
-          <form class="form-horizontal" action="" method="post">
+          <form class="form-horizontal " action="" method="post">
           <fieldset>
             <legend class="text-center">Contactez moi!</legend>
     
             <!-- Name input-->
             <div class="form-group">
               <label class="col-md-3 control-label" for="name">Nom</label>
-              <div class="col-md-9">
+              <div class="">
                 <input id="name" name="name" type="text" placeholder="votre nom" class="form-control">
               </div>
             </div>
@@ -145,7 +145,7 @@
             <!-- Email input-->
             <div class="form-group">
               <label class="col-md-3 control-label" for="email">E-mail</label>
-              <div class="col-md-9">
+              <div class="">
                 <input id="email" name="email" type="text" placeholder="votre mail" class="form-control">
               </div>
             </div>
@@ -153,7 +153,7 @@
             <!-- Message body -->
             <div class="form-group">
               <label class="col-md-3 control-label" for="message">message</label>
-              <div class="col-md-9">
+              <div class="">
                 <textarea class="form-control" id="message" name="message" placeholder="votre message" rows="5"></textarea>
               </div>
             </div>
@@ -188,7 +188,7 @@
 
 <div>
 
-  <div class="foot1"> Voir un monde dans un grain de sable Et un Ciel dans une Fleur sauvage Tenir l'Infini dans la paume de la main Et l'éternité dans une heure.</div>
+  <div class="foot1"> "Voir un monde dans un grain de sable Et un Ciel dans une Fleur sauvage Tenir l'Infini dans la paume de la main Et l'éternité dans une heure." William Blake</div>
   
   <div class="foot2">
     <p class="footp">© Alain Wehbe 2021</p>
