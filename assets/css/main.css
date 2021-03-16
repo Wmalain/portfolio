@@ -430,7 +430,40 @@ to {
     color: white;
     transition: 0.5s;
 }
+
+.form{
+    margin: 50px auto;
+}
 .form2{
     margin-left: auto;
     margin-right: auto;
+}
+label{
+    font-family: Indie Flower;
+    font-size : 1.2em;
+    font-weight: bold;
+    color: #222831;
+}
+
+.cont{
+    font-family: Indie Flower;
+    font-size : 2em;
+    font-weight: bold;
+    color: #222831;
+}
+
+.btncont{
+    font-family: Indie Flower;
+    font-weight: bold !important;
+    
+}
+.btncont:hover{
+    background-color: #f05454;
+    color: white !important;
+    transition: 0.7s;
+
+}
+.btncont1{
+    margin: 20px auto 10px auto !important;
+    text-align: center;
 }
