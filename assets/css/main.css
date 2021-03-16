@@ -1,4 +1,7 @@
-body {padding-top:20px;}
+.div1header{
+    height:15vh;
+}
+
 .headerh2{
     color: #f05454;
     font-family: Indie Flower;
@@ -9,8 +12,7 @@ body {padding-top:20px;}
 .headerh2:before{
     content: 'Développeur Web';
     animation-name: head;
-    animation-duration: 6s;
-    transition-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count:inherit;
     animation-fill-mode: forwards;
 }
@@ -19,9 +21,9 @@ body {padding-top:20px;}
     0% {content: 'Joueur'; font-size:0.8em; color: #dddddd; text-align:center;
     }
     25% {content: 'Geek'; font-size:0.8em; color: #dddddd;}
-    50% {content: 'rôliste'; font-size:0.8em; color: #dddddd;}
-    75% {content: 'cinéphile'; font-size:0.8em; color: #dddddd;}
-    100% {content: 'Développeur Web Junior';     color: #f05454; margin-left:15vw;
+    50% {content: 'roliste'; font-size:0.8em; color: #dddddd;}
+    75% {content: 'cinephile'; font-size:0.8em; color: #dddddd;}
+    100% {content: 'Developpeur Web Junior';     color: #f05454; margin-left:15vw; font-size:1em
     }
     
 }
@@ -47,12 +49,15 @@ body {padding-top:20px;}
     display:flex;
     justify-content: space-around;
     list-style-type: none;
-    font-family: lato;
     margin-top: inherit;
-    color: #dddddd;
-    font-size:1.2em;
-
 }
+
+.butnav{
+    font-family: Indie Flower;
+    font-size:1.2em;
+}
+
+
 .liheader{
     /* margin : 0 5vw; */
 }
@@ -63,8 +68,9 @@ body {padding-top:20px;}
 display: flex;
 justify-content: space-between;
 margin-left: 100px;
-    margin-right: 100px;
-    align-items: center;
+margin-right: 100px;
+align-items: center;
+margin-bottom:100px;
 }
 
 .presh2{
@@ -92,6 +98,7 @@ margin-left: 100px;
 /* Skill */
 .skills{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 #SkillBox {
     font-size: 20px;
@@ -383,5 +390,36 @@ to {
 }
 
 
+/* Footer */
 
+.foot1{
+    background-color : #222831;
+    text-align: center;
+    color: #f05454;
+    font-size:0.9em;
+    height : 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Indie Flower;
+}
+.foot2{
+    background-color : #f05454;
+    height : 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    font-size:1.5em;
+    color: #222831;
+}
 
+.footp{
+    font-size: 1.5em;
+    font-family: Indie Flower;
+    margin-bottom:inherit;
+}
+
+.logo{
+    color: #222831;
+    font-size:2em;
+}
