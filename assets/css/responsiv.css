@@ -1,0 +1,45 @@
+@media (max-width: 939px) {
+  
+ .foott1{
+    display: none;
+} 
+
+.foott2{
+    background-color : #222831;
+    text-align: center;
+    color: #f05454;
+    font-size:0.9em;
+    height : 30px;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Indie Flower;
+}
+}
+
+
+@media (max-width: 630px) {
+   .presimg{
+       display:none;
+   }
+   .presh2{
+   Margin-top:100px;
+   margin-left: inherit;
+   text-align: center;
+}
+.headerh1{
+    padding-top:20px !important;
+}
+}
+
+
+@media (max-width: 768px) {
+    .footp{
+        font-size:1em;
+    }
+    .logo{
+        font-size:1em;
+
+    }
+ }

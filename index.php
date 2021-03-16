@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portfolio Alain WEHBE</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsiv.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Indie+Flower&family=Lato&family=Redressed&family=Roboto+Mono&display=swap" rel="stylesheet">
@@ -132,7 +133,7 @@
         <div class="well well-sm">
           <form class="form-horizontal " action="" method="post">
           <fieldset>
-            <legend class="text-center">Contactez moi!</legend>
+            <legend class="text-center cont">Contactez moi !</legend>
     
             <!-- Name input-->
             <div class="form-group">
@@ -159,9 +160,9 @@
             </div>
     
             <!-- Form actions -->
-            <div class="form-group">
-              <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+            <div class="form-group ">
+              <div class="col-md-12 btncont1">
+                <button type="submit" class="btn btn-lg btncont ">Envoyer</button>
               </div>
             </div>
           </fieldset>
@@ -188,7 +189,9 @@
 
 <div>
 
-  <div class="foot1"> "Voir un monde dans un grain de sable Et un Ciel dans une Fleur sauvage Tenir l'Infini dans la paume de la main Et l'éternité dans une heure." William Blake</div>
+  <div class="foott1"> "Voir un monde dans un grain de sable Et un Ciel dans une Fleur sauvage Tenir l'Infini dans la paume de la main Et l'éternité dans une heure." William Blake</div>
+
+  <div class ="foott2">N'est pas mort ce qui à jamais dort</div>
   
   <div class="foot2">
     <p class="footp">© Alain Wehbe 2021</p>
