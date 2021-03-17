@@ -11,40 +11,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Indie+Flower&family=Lato&family=Redressed&family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-
-
 </head>
 
+
 <header>
- <div class="div1header">
-<h1 class="headerh1">Alain <strong>WEHBE</strong></h1>
-<h2 class="headerh2"></h2>
-</div>
+  <div class="div1header">
+    <h1 class="headerh1">Alain <strong class="name">WEHBE</strong></h1>
+    <h2 class="headerh2"></h2>
+  </div>
 
+  <ul class="nav nav-tabs div2header" id="myTab" role="tablist">
 
-<ul class="nav nav-tabs div2header" id="myTab" role="tablist">
-  <li class="nav-item" role="presentation">
-    <button class="nav-link active butnav" id="Presentation-tab" data-bs-toggle="tab" data-bs-target="#Presentation" type="button" role="tab" aria-controls="Presentation" aria-selected="true">Presentation</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link butnav" id="projets-tab" data-bs-toggle="tab" data-bs-target="#projets" type="button" role="tab" aria-controls="projets" aria-selected="false">Projets</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link butnav" id="connaissance-tab" data-bs-toggle="tab" data-bs-target="#connaissance" type="button" role="tab" aria-controls="connaissance" aria-selected="false">Connaissances</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link butnav" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
-  </li>
-</ul>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active butnav" id="Presentation-tab" data-bs-toggle="tab" data-bs-target="#Presentation" type="button" role="tab" aria-controls="Presentation" aria-selected="true">Presentation</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+      <button class="nav-link butnav" id="projets-tab" data-bs-toggle="tab" data-bs-target="#projets" type="button" role="tab" aria-controls="projets" aria-selected="false">Projets</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+      <button class="nav-link butnav" id="connaissance-tab" data-bs-toggle="tab" data-bs-target="#connaissance" type="button" role="tab" aria-controls="connaissance" aria-selected="false">Connaissances</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+      <button class="nav-link butnav" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+    </li>
+    
+  </ul>
 </header>
 
 
 
-
+<!-- Presentation -->
 <div class="tab-content" id="myTabContent">
-
-
 
   <div class="tab-pane fade show active" id="Presentation" role="tabpanel" aria-labelledby="Presentation-tab">
     <h2 class="presh2">Présentation</h2>
@@ -52,75 +52,80 @@
         <p class="presep">Moi c’est Alain Wehbe, passionné de nouvelle technologie depuis mon plus jeune âge, Adolescent je découvre INTERNET, les sites de l’époque étaient bien différents de ce qu’ils sont aujourd’hui. Je vous propose de mettre cette passion au service de VOS besoins, pour faire le site de VOS rêves !</p>
         <img class="presimg" src="assets/img/pro.jpg" alt="">
     </div>
-
   </div>
+<!-- Presentation FIN -->
 
-
-
+<!-- Projets -->
   <div class="tab-pane fade" id="projets" role="tabpanel" aria-labelledby="projets-tab">
-    
-    
-    
-
-
-
-
+   
+  <div class="container">
+      <div class="col-sm-12 text-center test">
+        <img class="imgsite" src="assets/img/GOM.png" alt="">
+        <div class="textpres">
+        <h2>Good Old Movies</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolorem quas officiis nulla veritatis, voluptates asperiores quibusdam obcaecati, necessitatibus voluptas sequi rerum, magnam eaque ut perspiciatis nam? Quidem, placeat sapiente.</p>
+        </div>
+    </div>
+  </div>
   </div>
 
 
-  <h2 class="hcomp">Front</h2>
+<!-- Projets FIN -->
+
+  <!-- Skill -->
   <div class="tab-pane fade" id="connaissance" role="tabpanel" aria-labelledby="connaissance-tab">
-  <center class="skills">
-        <div class="SkillBar">
-            <div id="Skill-HTML"> 
-      <span class="Skill-Area ">HTML</span>
-      <span class="PercentText ">100%</span>
-            </div>
-        </div>
-  
-    <div class="SkillBar">
-        <div id="Skill-CSS">
-        <span class="Skill-Area ">CSS/SASS</span>
-        <span class="PercentText ">90%</span>
-        </div>
-    </div>
-    <div class="SkillBar">
-        <div id="Skill-jQuery">
-            <span class="Skill-Area ">jQuery</span>
-            <span class="PercentText ">60%</span>
-        </div>
-    </div>
-  
-    <div class="SkillBar">
-        <div id="Skill-JS">
-            <span class="Skill-Area ">Javascript</span>
-            <span class="PercentText ">60%</span>
-        </div>
-    </div>
+    <center class="skills">
+    <h2 class="hcomp">Front</h2>
+          <div class="SkillBar">
+              <div id="Skill-HTML"> 
+        <span class="Skill-Area ">HTML</span>
+        <span class="PercentText ">100%</span>
+              </div>
+          </div>
+    
+      <div class="SkillBar">
+          <div id="Skill-CSS">
+          <span class="Skill-Area ">CSS/SASS</span>
+          <span class="PercentText ">90%</span>
+          </div>
+      </div>
+      <div class="SkillBar">
+          <div id="Skill-jQuery">
+              <span class="Skill-Area ">jQuery</span>
+              <span class="PercentText ">60%</span>
+          </div>
+      </div>
+    
+      <div class="SkillBar">
+          <div id="Skill-JS">
+              <span class="Skill-Area ">Javascript</span>
+              <span class="PercentText ">60%</span>
+          </div>
+      </div>
+
+      <div class="SkillBar">
+          <div id="Skill-AJAX">
+              <span class="Skill-Area ">AJAX</span>
+              <span class="PercentText ">50%</span>
+          </div>
+      </div>
+
+    <h2 class="hcomp">Back</h2>
 
     <div class="SkillBar">
-        <div id="Skill-AJAX">
-            <span class="Skill-Area ">AJAX</span>
-            <span class="PercentText ">50%</span>
-        </div>
-    </div>
+          <div id="Skill-PHP">
+              <span class="Skill-Area ">PHP </span>
+              <span class="PercentText ">80%</span>
+          </div>
+      </div>
+      <div class="SkillBar">
+          <div id="Skill-SQL">
+              <span class="Skill-Area ">SQL </span>
+              <span class="PercentText ">80%</span>
+          </div>
+      </div>
 
-  <h2 class="hcomp">Back</h2>
-
-  <div class="SkillBar">
-        <div id="Skill-PHP">
-            <span class="Skill-Area ">PHP </span>
-            <span class="PercentText ">80%</span>
-        </div>
-    </div>
-    <div class="SkillBar">
-        <div id="Skill-SQL">
-            <span class="Skill-Area ">SQL </span>
-            <span class="PercentText ">80%</span>
-        </div>
-    </div>
-
-  <h2 class="hcomp">Framework</h2>
+    <h2 class="hcomp">Framework</h2>
     
   
     <div class="SkillBar">
@@ -146,71 +151,59 @@
         </div>
     </div>
   
-
-   
-
-    
     </center>      
 
-  </div>
+    </div>
 
 
-  <div class="tab-pane fade " id="contact" role="tabpanel" aria-labelledby="contact-tab">
+    <div class="tab-pane fade " id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
-  <div class="container form">
-	<div class="row justify-content-center">
-      <div class="col-md-6 col-md-offset-6 ">
-        <div class="well well-sm">
-          <form class="form-horizontal " action="" method="post">
-          <fieldset>
-            <legend class="text-center cont">Contactez moi !</legend>
-    
-            <!-- Name input-->
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="name">Nom</label>
-              <div class="">
-                <input id="name" name="name" type="text" placeholder="votre nom" class="form-control">
+    <div class="container form">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-md-offset-6 ">
+          <div class="well well-sm">
+            <form class="form-horizontal " action="" method="post">
+            <fieldset>
+              <legend class="text-center cont">Contactez moi !</legend>
+      
+              <!-- Name input-->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="name">Nom</label>
+                <div class="">
+                  <input id="name" name="name" type="text" placeholder="votre nom" class="form-control">
+                </div>
               </div>
-            </div>
-    
-            <!-- Email input-->
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="email">E-mail</label>
-              <div class="">
-                <input id="email" name="email" type="text" placeholder="votre mail" class="form-control">
+      
+              <!-- Email input-->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="email">E-mail</label>
+                <div class="">
+                  <input id="email" name="email" type="text" placeholder="votre mail" class="form-control">
+                </div>
               </div>
-            </div>
-    
-            <!-- Message body -->
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="message">message</label>
-              <div class="">
-                <textarea class="form-control" id="message" name="message" placeholder="votre message" rows="5"></textarea>
+      
+              <!-- Message body -->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="message">message</label>
+                <div class="">
+                  <textarea class="form-control" id="message" name="message" placeholder="votre message" rows="5"></textarea>
+                </div>
               </div>
-            </div>
-    
-            <!-- Form actions -->
-            <div class="form-group ">
-              <div class="col-md-12 btncont1">
-                <button type="submit" class="btn btn-lg btncont ">Envoyer</button>
+      
+              <!-- Form actions -->
+              <div class="form-group ">
+                <div class="col-md-12 btncont1">
+                  <button type="submit" class="btn btn-lg btncont ">Envoyer</button>
+                </div>
               </div>
-            </div>
-          </fieldset>
-          </form>
+            </fieldset>
+            </form>
+          </div>
         </div>
-      </div>
-	</div>
-</div>
-
+    </div>
   </div>
 
-
-
-</div>
-  
-
-
-
+  </div>
 
 
 
