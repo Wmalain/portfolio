@@ -62,8 +62,34 @@
       <div class="col-sm-12 text-center test">
         <img class="imgsite" src="assets/img/GOM.png" alt="">
         <div class="textpres">
-        <h2>Good Old Movies</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolorem quas officiis nulla veritatis, voluptates asperiores quibusdam obcaecati, necessitatibus voluptas sequi rerum, magnam eaque ut perspiciatis nam? Quidem, placeat sapiente.</p>
+        <h2 class="hsit">Good Old Movies</h2>
+        <p class="psit">Site crée pour la fin de ma formation de developpeur web. un site qui vous conseil de bon vieux films.</p>
+        <p class="psit">Un site qui vous conseil de bon vieux films a partir d'une base de donnée entré à la main. </p>
+        <a class="asit" href="https://www.goodoldmovies.fr/" target="_blank">Lien</a>
+        </div>
+    </div>
+
+    <div class="col-sm-12 text-center test">
+        <img class="imgsite" src="assets/img/1.jpg" alt="">
+        <div class="textpres">
+        <h2 class="hsit">Good Old Movies</h2>
+        <p class="psit">Site crée pour la fin de ma formation de developpeur web. un site qui vous conseil de bon vieux films.</p>
+        </div>
+    </div>
+
+    <div class="col-sm-12 text-center test">
+        <img class="imgsite" src="assets/img/2.jpg" alt="">
+        <div class="textpres">
+        <h2 class="hsit">Good Old Movies</h2>
+        <p class="psit">Site crée pour la fin de ma formation de developpeur web. un site qui vous conseil de bon vieux films.</p>
+        </div>
+    </div>
+
+    <div class="col-sm-12 text-center test">
+        <img class="imgsite" src="assets/img/3.jpg" alt="">
+        <div class="textpres">
+        <h2 class="hsit">Good Old Movies</h2>
+        <p class="psit">Site crée pour la fin de ma formation de developpeur web. un site qui vous conseil de bon vieux films.</p>
         </div>
     </div>
   </div>
