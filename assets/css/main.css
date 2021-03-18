@@ -134,6 +134,19 @@ margin-bottom:100px;
     font-family: Indie Flower;
     font-size: 2em;
     color: #f05454;
+    text-decoration: none;
+}
+
+.strongp{
+    margin-top: 20px;
+    font-size:bold;
+    font-family: lato;
+    font-size: 1.2em;
+    color: #f05454;
+}
+.asit:hover{
+    color:white;
+    transition: 0.5s !important;
 }
 .test{
     position: relative;
@@ -181,7 +194,7 @@ margin-bottom:100px;
     font-size: 2em;
     text-align: center;
     font-weight: bold;
-    color: #222831;
+    color: #312223;
     margin: 15px auto;
 }
 
@@ -213,7 +226,9 @@ margin-bottom:100px;
     width: 90%;
     height: 50px;
     position: relative;
-    background: rgba(17, 17, 17, .3);
+    background: #222831;
+
+    /* background: rgba(17, 17, 17, .3); */
     margin: 20px auto;
 }
 #Skill-HTML {
@@ -558,7 +573,7 @@ to {
 }.Skill-Area {
     z-index: 1;
     float: left;
-    //position: absolute;
+    /* //position: absolute; */
     margin-top: 15px;
     margin-left: 15px;
     text-shadow: none;
@@ -574,8 +589,8 @@ to {
     float: right;
     text-shadow: none;
     color: #fff;
-    //font-family: lato, sans-serif;
-    font-size: 18px;
+    font-family: Indie Flower, sans-serif;
+    font-size: 20px;
 }
 
 /* Skill FIN */

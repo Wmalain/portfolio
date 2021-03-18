@@ -63,33 +63,45 @@
         <img class="imgsite" src="assets/img/GOM.png" alt="">
         <div class="textpres">
         <h2 class="hsit">Good Old Movies</h2>
-        <p class="psit">Site crée pour la fin de ma formation de developpeur web. un site qui vous conseil de bon vieux films.</p>
-        <p class="psit">Un site qui vous conseil de bon vieux films a partir d'une base de donnée entré à la main. </p>
+        <p class="psit">Site crée pour la fin de ma formation de developpeur web.<br> un site qui vous conseil de bon vieux films à partir d'une base de donnée entré à la main.<br> 
+        <p class="strongp">HTML, SASS, JS, PHP, SQL</p>
         <a class="asit" href="https://www.goodoldmovies.fr/" target="_blank">Lien</a>
+        </div>
+    </div>
+
+    <div class="col-sm-12 text-center test">
+        <img class="imgsite" src="assets/img/mycave.png" alt="">
+        <div class="textpres">
+        <h2 class="hsit">Mycave</h2>
+        <p class="psit">Site d'une cave Fictive réalisé pour l'examen Back-end lors de ma formation.</p>
+        <p class="strongp">HTML, SASS, JS, PHP, SQL</p>
         </div>
     </div>
 
     <div class="col-sm-12 text-center test">
         <img class="imgsite" src="assets/img/1.jpg" alt="">
         <div class="textpres">
-        <h2 class="hsit">Good Old Movies</h2>
-        <p class="psit">Site crée pour la fin de ma formation de developpeur web. un site qui vous conseil de bon vieux films.</p>
+        <h2 class="hsit">Gaming Campus</h2>
+        <p class="psit">Intégration faite à partir d'une maquette PDF lors de ma formation</p>
+        <p class="strongp">HTML, CSS</p>
         </div>
     </div>
 
     <div class="col-sm-12 text-center test">
         <img class="imgsite" src="assets/img/2.jpg" alt="">
         <div class="textpres">
-        <h2 class="hsit">Good Old Movies</h2>
-        <p class="psit">Site crée pour la fin de ma formation de developpeur web. un site qui vous conseil de bon vieux films.</p>
+        <h2 class="hsit">The resto</h2>
+        <p class="psit">Intégration faite à partir d'une maquette PDF lors de ma formation, prise en main du Website Builder ELEMENTOR</p>
+        <p class="strongp">HTML, CSS, ELEMENTOR</p>
         </div>
     </div>
 
     <div class="col-sm-12 text-center test">
         <img class="imgsite" src="assets/img/3.jpg" alt="">
         <div class="textpres">
-        <h2 class="hsit">Good Old Movies</h2>
-        <p class="psit">Site crée pour la fin de ma formation de developpeur web. un site qui vous conseil de bon vieux films.</p>
+        <h2 class="hsit">Futur Architecture</h2>
+        <p class="psit">Intégration faite à partir d'une maquette PDF lors de ma formation</p>
+        <p class="strongp">HTML, CSS</p>
         </div>
     </div>
   </div>
@@ -115,6 +127,14 @@
           <span class="PercentText ">90%</span>
           </div>
       </div>
+
+      <div class="SkillBar">
+        <div id="Skill-GULP">
+            <span class="Skill-Area ">GULP</span>
+            <span class="PercentText ">50%</span>
+        </div>
+    </div>
+
       <div class="SkillBar">
           <div id="Skill-jQuery">
               <span class="Skill-Area ">jQuery</span>
@@ -160,15 +180,6 @@
             <span class="PercentText ">70%</span>
         </div>
     </div>
-
-
-    <div class="SkillBar">
-        <div id="Skill-GULP">
-            <span class="Skill-Area ">GULP</span>
-            <span class="PercentText ">50%</span>
-        </div>
-    </div>
-
   
     <div class="SkillBar">
         <div id="Skill-SYNF">
@@ -181,9 +192,10 @@
 
     </div>
 
+<!-- contact -->
 
     <div class="tab-pane fade " id="contact" role="tabpanel" aria-labelledby="contact-tab">
-
+<form action="form.php" method="post">
     <div class="container form">
     <div class="row justify-content-center">
         <div class="col-md-6 col-md-offset-6 ">
@@ -196,7 +208,7 @@
               <div class="form-group">
                 <label class="col-md-3 control-label" for="name">Nom</label>
                 <div class="">
-                  <input id="name" name="name" type="text" placeholder="votre nom" class="form-control">
+                  <input id="name" name="name" type="text" class="form-control" required>
                 </div>
               </div>
       
@@ -204,7 +216,14 @@
               <div class="form-group">
                 <label class="col-md-3 control-label" for="email">E-mail</label>
                 <div class="">
-                  <input id="email" name="email" type="text" placeholder="votre mail" class="form-control">
+                  <input id="email" name="email" type="email" class="form-control" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="subject">Objet</label>
+                <div class="">
+                  <input id="subject" name="subject" type="text" class="form-control" required>
                 </div>
               </div>
       
@@ -212,14 +231,14 @@
               <div class="form-group">
                 <label class="col-md-3 control-label" for="message">message</label>
                 <div class="">
-                  <textarea class="form-control" id="message" name="message" placeholder="votre message" rows="5"></textarea>
+                  <textarea class="form-control" id="message" name="message"  rows="5" required></textarea>
                 </div>
               </div>
       
               <!-- Form actions -->
               <div class="form-group ">
                 <div class="col-md-12 btncont1">
-                  <button type="submit" class="btn btn-lg btncont ">Envoyer</button>
+                <input type="submit"  type="submit" class="btn btn-lg btncont "></input>
                 </div>
               </div>
             </fieldset>
@@ -230,20 +249,20 @@
   </div>
 
   </div>
+  </form>
+<!-- contact FIN -->
 
 
 
-
-<!-- contact -->
 
 <div>
 
   <div class="foott1"> "Voir un monde dans un grain de sable Et un Ciel dans une Fleur sauvage Tenir l'Infini dans la paume de la main Et l'éternité dans une heure." William Blake</div>
 
-  <div class ="foott2">N'est pas mort ce qui à jamais dort</div>
+  <div class ="foott2">"N'est pas mort ce qui à jamais dort" H.P Lovecraft</div>
   
   <div class="foot2">
-    <p class="footp">© Alain Wehbe 2021</p>
+    <p class="footp">© Alain Wehbe 2021 </p>
     <a href="https://www.linkedin.com/in/alain-wehbe/" target="_blank"><img src="" alt=""><i class="fab fa-linkedin logo"></i></a>
     <a href="https://github.com/Wmalain" target="_blank"><i class="fab fa-github logo"></i></a>
   </div>
