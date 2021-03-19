@@ -128,7 +128,7 @@ margin-bottom:100px;
     -moz-transform: scale(1.4) rotate(-10deg);
     -o-transform: scale(1.4) rotate(-10deg);
     transform: scale(1.4) rotate(-10deg);
-    
+    transition: 0.8s;
 }
 /* Presentation FIN*/
 
