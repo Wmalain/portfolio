@@ -96,7 +96,7 @@ margin-bottom:100px;
 
 .presh2{
     margin-left:100px;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size:2em;
     font-family: Indie Flower;
     color: #222831;
@@ -107,14 +107,28 @@ margin-bottom:100px;
 /* Presentation */
 .presep{
     font-family: lato;
+    font-size: 1.2em;
     text-align: justify;
     color: #222831;
+    margin: auto 50px;
 
 }
 
 .presimg{
-    height:200px;
-    margin-left: 50px;
+     height:350px;
+    margin-left: 80px;
+    margin: 0;
+    padding: 30px 18px;
+    
+
+
+}
+.presimg:hover{
+    -webkit-transform: scale(1.4) rotate(-10deg);
+    -moz-transform: scale(1.4) rotate(-10deg);
+    -o-transform: scale(1.4) rotate(-10deg);
+    transform: scale(1.4) rotate(-10deg);
+    
 }
 /* Presentation FIN*/
 

@@ -50,7 +50,7 @@
     <h2 class="presh2">Présentation</h2>
     <div class="presdiv">
         <p class="presep">Moi c’est Alain Wehbe, passionné de nouvelle technologie depuis mon plus jeune âge, Adolescent je découvre INTERNET, les sites de l’époque étaient bien différents de ce qu’ils sont aujourd’hui. Je vous propose de mettre cette passion au service de VOS besoins, pour faire le site de VOS rêves !</p>
-        <img class="presimg" src="assets/img/pro.jpg" alt="">
+        <img class="presimg" src="assets/img/moi.png" alt="">
     </div>
   </div>
 <!-- Presentation FIN -->
@@ -58,7 +58,7 @@
 <!-- Projets -->
   <div class="tab-pane fade" id="projets" role="tabpanel" aria-labelledby="projets-tab">
    
-  <div class="container">
+  <div class="container pressit">
       <div class="col-sm-12 text-center test">
         <img class="imgsite" src="assets/img/GOM.png" alt="">
         <div class="textpres">
