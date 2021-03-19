@@ -1,80 +1,102 @@
 @media (max-width: 992px) {
-  
- .foott1{
-    display: none;
-} 
 
-.foott2{
-    background-color : #222831;
-    text-align: center;
-    color: #f05454;
-    font-size:0.9em;
-    height : 30px;
-    font-weight: bold;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Indie Flower;
-}
-.hsit{
-    font-size:1em;
-}
-.psit{
-    display:none;
+    /* PRESENTATION */
+    .presdiv {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 50px 40px 50px;
+        align-items: center;
+    }
+    /* PRESENTATION FIN*/
 
-}
-.asit{
-    font-size:0.8em;
 
-}
+    /* PROJETS */
+    .hsit {
+        font-size: 1em;
+    }
 
-.strongp{
-    display:none;
+    .psit {
+        display: none;
+    }
 
-}
-.presdiv {
-    display: flex;
-    justify-content: space-between;
-    margin:40px 50px 40px 50px;
-    align-items: center;
-}
+    .asit {
+        font-size: 0.8em;
+    }
+
+    .strongp {
+        display: none;
+    }
+    /* PROJET FIN */
+
+    /* FOOTER */
+    .foott1 {
+        display: none;
+    }
+
+    .foott2 {
+        background-color: #222831;
+        text-align: center;
+        color: #ffffff;
+        font-size: 0.7em;
+        height: 30px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: lato, sans-serif;
+    }
+    /* FOOTER FIN */
+
+
 
 }
 
 @media (max-width: 630px) {
-  
-    .presdiv{
+
+    /* HEADER */
+    .headerh1 {
+        padding-top: 20px !important;
+    }
+    /* HEADER FIN */
+
+    /* PRESENTATION */
+    .presdiv {
         display: flex;
         flex-direction: column-reverse;
-        margin:40px 20px 40px 20px;
-
+        margin: 40px 20px 40px 20px;
     }
-   
-    .presimg{
-       padding: inherit;
-   } 
-   .presep{
-       margin: 10 auto;
-       font-size: 1em;
-       text-align:justify-all;
-   }
-   .presh2{
-   Margin-top:50px;
-   margin-bottom:10px;
-   margin-left: inherit;
-   text-align: center;
+
+    .presimg {
+        padding: inherit;
+    }
+
+    .presep {
+        margin: 10 auto;
+        font-size: 1em;
+        text-align: justify-all;
+    }
+
+    .presh2 {
+        Margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: inherit;
+        text-align: center;
+    }
+    /* PRESENTATION FIN*/
+
 }
-.headerh1{
-    padding-top:20px !important;
-}
-}
+
+
 
 @media (max-width: 768px) {
-    .footp{
-        font-size:1em;
-    }
-    .logo{
-        font-size:1em;
 
+    /* FOOTER */
+    .footp {
+        font-size: 1em;
     }
+
+    .logo {
+        font-size: 1em;
+    }
+    /* FOOTER FIN */
 }

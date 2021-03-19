@@ -9,13 +9,18 @@ textarea {
     box-shadow: none !important;
 }
 
-/* header */
+/* HEADER */
 .div1header {
-    height: 20vh;
+    height: 23vh !important;
 }
 
 .headerh1 {
     padding-top: 10px !important;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 .headerh2 {
@@ -25,6 +30,7 @@ textarea {
     margin-bottom: inherit;
 }
 
+/* ANIMATION HEADER H2 */
 .headerh2:before {
     content: 'Développeur Web';
     animation-name: head;
@@ -32,7 +38,6 @@ textarea {
     animation-iteration-count: inherit;
     animation-fill-mode: forwards;
 }
-
 @keyframes head {
     0% {
         content: 'Joueur';
@@ -67,6 +72,7 @@ textarea {
     }
 
 }
+/* ANIMATION HEADER H2 FIN*/
 
 .div1header {
     background-color: #222831;
@@ -77,14 +83,16 @@ textarea {
 
     color: #dddddd;
     font-family: Indie Flower;
+    font-weight: bold;
     margin-top: inherit;
     margin-bottom: inherit;
 }
 
 
+
+/* NAVBAR */
 .div2header {
     background-color: #f05454;
-
 }
 
 .nav {
@@ -102,38 +110,24 @@ textarea {
 
 .butnav:hover {
     border: #f05454 !important;
-    font-size: 1.2em;
+    -webkit-transform: scale(1.2) rotate(7deg);
+    -moz-transform: scale(1.2) rotate(7deg);
+    -o-transform: scale(1.2) rotate(7deg);
+    transform: scale(1.2) rotate(7deg);
     transition: 0.8s;
-
 }
+/* NAVBAR FIN */
+/* HEADER FIN */
 
 
-
-
+/* PRESENTATION */
 .presdiv {
     display: flex;
     justify-content: space-between;
-    margin:40px 100px 40px 100px;
+    margin:20px 150px 20px 150px;
     align-items: center;
 }
 
-.name {
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-/* .presh2 {
-    margin-left: 100px;
-    margin-top: 50px;
-    font-size: 2em;
-    font-family: Indie Flower;
-    color: #222831;
-
-} */
-
-/* Header FIN */
-
-/* Presentation */
 .presep {
     font-family: Indie Flower;
     font-weight: bolder;
@@ -141,7 +135,6 @@ textarea {
     text-align: justify;
     color: #222831;
     margin: auto 50px;
-
 }
 
 .presimg {
@@ -150,10 +143,9 @@ textarea {
     margin: 0;
     padding: 30px 18px;
     transition: 0.8s !important;
-
 }
 
-
+/* HOVER IMAGE */
 .presimg:hover {
     -webkit-transform: scale(1.4) rotate(-10deg);
     -moz-transform: scale(1.4) rotate(-10deg);
@@ -161,10 +153,9 @@ textarea {
     transform: scale(1.4) rotate(-10deg);
     transition: 0.8s;
 }
+/* PRESENTATION FIN*/
 
-/* Presentation FIN*/
-
-/* Projets */
+/* PROJETS */
 .hsit {
     font-family: Indie Flower;
     font-weight: bold;
@@ -234,13 +225,11 @@ textarea {
     padding: 8px;
 
 }
+/* PROJETS FIN */
 
-/* Projets FIN */
 
-/* Skill */
-
+/* SKILL */
 .hcomp {
-
     font-family: Indie Flower;
     font-size: 2em;
     text-align: center;
@@ -253,37 +242,12 @@ textarea {
     margin-bottom: 50px;
 }
 
-#SkillBox {
-    font-size: 20px;
-    font-family: 'Indie Flower', cursive;
-    width: 95%;
-    height: auto;
-    margin: 40px auto;
-    background-color: #fff;
-    border: 1px solid #cdcdcd;
-    padding: 10px;
-    border-radius: 20px;
-    -o-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -moz-border-radius: 20px;
-}
-
-#SkillBox img {
-    width: 20%;
-    height: 10%;
-    margin: auto 35%;
-    padding: 10px;
-}
-
 .SkillBar {
     width: 90%;
     height: 50px;
     position: relative;
     background: #222831;
-
-    /* background: rgba(17, 17, 17, .3); */
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
 #Skill-HTML {
@@ -296,7 +260,6 @@ textarea {
     position: absolute;
     background-color: #ea8564;
 }
-
 @keyframes Animate-HTML {
     from {
         width: 10px;
@@ -306,7 +269,6 @@ textarea {
         width: 100%
     }
 }
-
 @-webkit-keyframes Animate-HTML {
     from {
         width: 10px;
@@ -316,7 +278,6 @@ textarea {
         width: 100%
     }
 }
-
 @-moz-keyframes Animate-HTML {
     from {
         width: 10px;
@@ -326,7 +287,6 @@ textarea {
         width: 100%
     }
 }
-
 @-o-keyframes Animate-HTML {
     from {
         width: 10px;
@@ -347,7 +307,6 @@ textarea {
     position: absolute;
     background-color: #55a69f;
 }
-
 @keyframes Animate-CSS {
     from {
         width: 10px;
@@ -357,7 +316,6 @@ textarea {
         width: 90%
     }
 }
-
 @-webkit-keyframes Animate-CSS {
     from {
         width: 10px;
@@ -367,7 +325,6 @@ textarea {
         width: 70%
     }
 }
-
 @-moz-keyframes Animate-CSS {
     from {
         width: 10px;
@@ -377,7 +334,6 @@ textarea {
         width: 90%
     }
 }
-
 @-o-keyframes Animate-CSS {
     from {
         width: 10px;
@@ -398,7 +354,6 @@ textarea {
     position: absolute;
     background-color: #99856d;
 }
-
 @keyframes Animate-jQuery {
     from {
         width: 10px;
@@ -408,7 +363,6 @@ textarea {
         width: 60%
     }
 }
-
 @-webkit-keyframes Animate-jQuery {
     from {
         width: 10px;
@@ -418,7 +372,6 @@ textarea {
         width: 60%
     }
 }
-
 @-moz-keyframes Animate-jQuery {
     from {
         width: 10px;
@@ -428,7 +381,6 @@ textarea {
         width: 60%
     }
 }
-
 @-o-keyframes Animate-jQuery {
     from {
         width: 10px;
@@ -449,7 +401,6 @@ textarea {
     position: absolute;
     background-color: #c44e45;
 }
-
 @keyframes Animate-JS {
     from {
         width: 10px;
@@ -459,7 +410,6 @@ textarea {
         width: 60%
     }
 }
-
 @-webkit-keyframes Animate-JS {
     from {
         width: 10px;
@@ -469,7 +419,6 @@ textarea {
         width: 60%
     }
 }
-
 @-moz-keyframes Animate-JS {
     from {
         width: 10px;
@@ -479,7 +428,6 @@ textarea {
         width: 60%
     }
 }
-
 @-o-keyframes Animate-JS {
     from {
         width: 10px;
@@ -500,7 +448,6 @@ textarea {
     position: absolute;
     background-color: #9e577b;
 }
-
 @keyframes Animate-AJAX {
     from {
         width: 10px;
@@ -510,7 +457,6 @@ textarea {
         width: 50%
     }
 }
-
 @-webkit-keyframes Animate-AJAX {
     from {
         width: 10px;
@@ -520,7 +466,6 @@ textarea {
         width: 50%
     }
 }
-
 @-moz-keyframes Animate-AJAX {
     from {
         width: 10px;
@@ -530,7 +475,6 @@ textarea {
         width: 50%
     }
 }
-
 @-o-keyframes Animate-AJAX {
     from {
         width: 10px;
@@ -551,7 +495,6 @@ textarea {
     position: absolute;
     background-color: #899026;
 }
-
 @keyframes Animate-GULP {
     from {
         width: 10px;
@@ -561,7 +504,6 @@ textarea {
         width: 50%
     }
 }
-
 @-webkit-keyframes Animate-GULP {
     from {
         width: 10px;
@@ -571,7 +513,6 @@ textarea {
         width: 50%
     }
 }
-
 @-moz-keyframes Animate-GULP {
     from {
         width: 10px;
@@ -581,7 +522,6 @@ textarea {
         width: 50%
     }
 }
-
 @-o-keyframes Animate-GULP {
     from {
         width: 10px;
@@ -602,7 +542,6 @@ textarea {
     position: absolute;
     background-color: #5A69A6;
 }
-
 @keyframes Animate-PHP {
     from {
         width: 10px;
@@ -612,7 +551,6 @@ textarea {
         width: 80%
     }
 }
-
 @-webkit-keyframes Animate-PHP {
     from {
         width: 10px;
@@ -622,7 +560,6 @@ textarea {
         width: 80%
     }
 }
-
 @-moz-keyframes Animate-PHP {
     from {
         width: 10px;
@@ -632,7 +569,6 @@ textarea {
         width: 80%
     }
 }
-
 @-o-keyframes Animate-PHP {
     from {
         width: 10px;
@@ -653,7 +589,6 @@ textarea {
     position: absolute;
     background-color: #538574;
 }
-
 @keyframes Animate-SYNF {
     from {
         width: 10px;
@@ -663,7 +598,6 @@ textarea {
         width: 50%
     }
 }
-
 @-webkit-keyframes Animate-SYNF {
     from {
         width: 10px;
@@ -673,7 +607,6 @@ textarea {
         width: 50%
     }
 }
-
 @-moz-keyframes Animate-SYNF {
     from {
         width: 10px;
@@ -683,7 +616,6 @@ textarea {
         width: 50%
     }
 }
-
 @-o-keyframes Animate-SYNF {
     from {
         width: 10px;
@@ -704,7 +636,6 @@ textarea {
     position: absolute;
     background-color: #23b1db;
 }
-
 @keyframes Animate-SQL {
     from {
         width: 10px;
@@ -714,7 +645,6 @@ textarea {
         width: 80%
     }
 }
-
 @-webkit-keyframes Animate-SQL {
     from {
         width: 10px;
@@ -724,7 +654,6 @@ textarea {
         width: 80%
     }
 }
-
 @-moz-keyframes Animate-SQL {
     from {
         width: 10px;
@@ -734,7 +663,6 @@ textarea {
         width: 80%
     }
 }
-
 @-o-keyframes Animate-SQL {
     from {
         width: 10px;
@@ -746,17 +674,16 @@ textarea {
 }
 
 #Skill-BOOTS {
-    animation: Animate-VBNET 4s;
-    -webkit-animation: Animate-VBNET 4s;
-    -moz-animation: Animate-VBNET 4s;
-    -o-animation: Animate-VBNET 4s;
+    animation: Animate-BOOTS 4s;
+    -webkit-animation: Animate-BOOTS 4s;
+    -moz-animation: Animate-BOOTS 4s;
+    -o-animation: Animate-BOOTS 4s;
     width: 70%;
     height: 50px;
     position: absolute;
     background-color: #f8a51e;
 }
-
-@keyframes Animate-VBNET {
+@keyframes Animate-BOOTS {
     from {
         width: 10px;
     }
@@ -765,8 +692,7 @@ textarea {
         width: 70%
     }
 }
-
-@-webkit-keyframes Animate-VBNET {
+@-webkit-keyframes Animate-BOOTS {
     from {
         width: 10px;
     }
@@ -775,8 +701,7 @@ textarea {
         width: 70%
     }
 }
-
-@-moz-keyframes Animate-VBNET {
+@-moz-keyframes Animate-BOOTS {
     from {
         width: 10px;
     }
@@ -785,8 +710,7 @@ textarea {
         width: 70%
     }
 }
-
-@-o-keyframes Animate-VBNET {
+@-o-keyframes Animate-BOOTS {
     from {
         width: 10px;
     }
@@ -799,7 +723,6 @@ textarea {
 .Skill-Area {
     z-index: 1;
     float: left;
-    /* //position: absolute; */
     margin-top: 15px;
     margin-left: 15px;
     text-shadow: none;
@@ -819,20 +742,56 @@ textarea {
     font-family: Indie Flower, sans-serif;
     font-size: 20px;
 }
-
-/* Skill FIN */
-
+/* SKILL FIN */
 
 
+/* CONTACT */
+.form {
+    margin: 50px auto;
+}
 
+.form2 {
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/* Footer */
+label {
+    font-family: Indie Flower;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #222831;
+}
 
+.cont {
+    font-family: Indie Flower;
+    font-size: 2em;
+    font-weight: bold;
+    color: #222831;
+}
+
+.btncont {
+    font-family: Indie Flower;
+    font-weight: bold !important;
+}
+
+.btncont:hover {
+    background-color: #f05454;
+    color: white !important;
+    transition: 0.7s;
+}
+
+.btncont1 {
+    margin: 20px auto 10px auto !important;
+    text-align: center;
+}
+/* CONTACT FIN */
+
+/* FOOTER */
 .foott1 {
     background-color: #222831;
     text-align: center;
-    color: #f05454;
-    font-size: 0.9em !important;
+    color: #ffffff;
+    font-size: 0.7em !important;
     height: 30px;
     display: flex;
     align-items: center;
@@ -871,43 +830,4 @@ textarea {
     transition: 0.5s;
 }
 
-.form {
-    margin: 50px auto;
-}
-
-.form2 {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-label {
-    font-family: Indie Flower;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #222831;
-}
-
-.cont {
-    font-family: Indie Flower;
-    font-size: 2em;
-    font-weight: bold;
-    color: #222831;
-}
-
-.btncont {
-    font-family: Indie Flower;
-    font-weight: bold !important;
-
-}
-
-.btncont:hover {
-    background-color: #f05454;
-    color: white !important;
-    transition: 0.7s;
-
-}
-
-.btncont1 {
-    margin: 20px auto 10px auto !important;
-    text-align: center;
-}
+/* FOOTER FIN */
