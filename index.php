@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsiv.css">
 
+    <meta name="description" content="Portfolio Alain WEHBE">
+    <meta name="keywords" content="HTML, CSS, JS, PHP">
+    <meta name="author" content="Alain Wehbe">
+    <meta property="og:title" content="Alain Wehbe" />
+    <meta property="og:type" content="Portfolio" />
+    <meta property="og:description" content="Portfolio Alain WEHBE" />
+    <!-- <meta property="og:image" content="http://alainwehbe.com/assets/img/moi.png"/>
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="315" />
+    <meta property="og:url" content="www.alainwehbe.com" -->
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Indie+Flower&family=Lato&family=Redressed&family=Roboto+Mono&display=swap" rel="stylesheet">
