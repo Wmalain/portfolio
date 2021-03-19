@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portfolio Alain WEHBE</title>
+    <link rel="icon" href="assets/img/favicon.png"/>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsiv.css">
 
@@ -48,7 +49,7 @@
 <div class="tab-content" id="myTabContent">
 
   <div class="tab-pane fade show active" id="Presentation" role="tabpanel" aria-labelledby="Presentation-tab">
-    <h2 class="presh2">Présentation</h2>
+    <!-- <h2 class="presh2">Présentation</h2> -->
     <div class="presdiv">
         <p class="presep"data-text="Moi c’est Alain Wehbe, passionné de nouvelle technologie depuis mon plus jeune âge, Adolescent je découvre INTERNET, les sites de l’époque étaient bien différents de ce qu’ils sont aujourd’hui. Je vous propose de mettre cette passion au service de VOS besoins, pour faire le site de VOS rêves !"></p>
         <!-- <p class="presep">Moi c’est Alain Wehbe, passionné de nouvelle technologie depuis mon plus jeune âge, Adolescent je découvre INTERNET, les sites de l’époque étaient bien différents de ce qu’ils sont aujourd’hui. Je vous propose de mettre cette passion au service de VOS besoins, pour faire le site de VOS rêves !</p> -->
@@ -259,7 +260,7 @@
 
 <div>
 
-  <div class="foott1"> "Voir un monde dans un grain de sable Et un Ciel dans une Fleur sauvage Tenir l'Infini dans la paume de la main Et l'éternité dans une heure." William Blake</div>
+  <div class="foott1"> "Voir un monde dans un grain de sable Et un Ciel dans une Fleur sauvage. Tenir l'Infini dans la paume de la main Et l'éternité dans une heure." William Blake</div>
 
   <div class ="foott2">"N'est pas mort ce qui à jamais dort" H.P Lovecraft</div>
   

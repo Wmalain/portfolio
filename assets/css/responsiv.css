@@ -32,6 +32,12 @@
     display:none;
 
 }
+.presdiv {
+    display: flex;
+    justify-content: space-between;
+    margin:40px 50px 40px 50px;
+    align-items: center;
+}
 
 }
 
@@ -40,6 +46,8 @@
     .presdiv{
         display: flex;
         flex-direction: column-reverse;
+        margin:40px 20px 40px 20px;
+
     }
    
     .presimg{

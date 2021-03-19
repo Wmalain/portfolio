@@ -113,10 +113,8 @@ textarea {
 .presdiv {
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin:40px 100px 40px 100px;
     align-items: center;
-    margin-bottom: 100px;
 }
 
 .name {
@@ -124,14 +122,14 @@ textarea {
     font-size: 1.5em;
 }
 
-.presh2 {
+/* .presh2 {
     margin-left: 100px;
     margin-top: 50px;
     font-size: 2em;
     font-family: Indie Flower;
     color: #222831;
 
-}
+} */
 
 /* Header FIN */
 
@@ -834,13 +832,12 @@ textarea {
     background-color: #222831;
     text-align: center;
     color: #f05454;
-    font-size: 0.9em;
+    font-size: 0.9em !important;
     height: 30px;
-    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Indie Flower;
+    font-family: lato;
 }
 
 .foott2 {
