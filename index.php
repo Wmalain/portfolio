@@ -7,6 +7,7 @@
     <title> Portfolio Alain WEHBE</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsiv.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Indie+Flower&family=Lato&family=Redressed&family=Roboto+Mono&display=swap" rel="stylesheet">
@@ -41,7 +42,7 @@
   </ul>
 </header>
 
-
+<!-- <div class="hi" data-text="Moi c’est Alain Wehbe, passionné de nouvelle technologie depuis mon plus jeune âge, Adolescent je découvre INTERNET, les sites de l’époque étaient bien différents de ce qu’ils sont aujourd’hui. Je vous propose de mettre cette passion au service de VOS besoins, pour faire le site de VOS rêves !"></div> -->
 
 <!-- Presentation -->
 <div class="tab-content" id="myTabContent">
@@ -49,7 +50,8 @@
   <div class="tab-pane fade show active" id="Presentation" role="tabpanel" aria-labelledby="Presentation-tab">
     <h2 class="presh2">Présentation</h2>
     <div class="presdiv">
-        <p class="presep">Moi c’est Alain Wehbe, passionné de nouvelle technologie depuis mon plus jeune âge, Adolescent je découvre INTERNET, les sites de l’époque étaient bien différents de ce qu’ils sont aujourd’hui. Je vous propose de mettre cette passion au service de VOS besoins, pour faire le site de VOS rêves !</p>
+        <p class="presep"data-text="Moi c’est Alain Wehbe, passionné de nouvelle technologie depuis mon plus jeune âge, Adolescent je découvre INTERNET, les sites de l’époque étaient bien différents de ce qu’ils sont aujourd’hui. Je vous propose de mettre cette passion au service de VOS besoins, pour faire le site de VOS rêves !"></p>
+        <!-- <p class="presep">Moi c’est Alain Wehbe, passionné de nouvelle technologie depuis mon plus jeune âge, Adolescent je découvre INTERNET, les sites de l’époque étaient bien différents de ce qu’ils sont aujourd’hui. Je vous propose de mettre cette passion au service de VOS besoins, pour faire le site de VOS rêves !</p> -->
         <img class="presimg" src="assets/img/moi.png" alt="">
     </div>
   </div>
@@ -270,7 +272,13 @@
 
 
 </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+
 <body>
     
 </body>
