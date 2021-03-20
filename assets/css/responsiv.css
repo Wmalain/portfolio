@@ -1,3 +1,195 @@
+@media screen and ( min-width: 2000px ) and ( min-height: 1000px ){
+
+    body {
+        min-height: 100vh !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    /* footer{
+        position: relative; bottom: 0; left: 0; right: 0 !important    }
+     */
+    /* HEADER */
+    .headerh1 {
+        font-size:5em;
+        padding-top: 10px !important;
+    }
+    .headerh2 {
+        font-size: 4em;
+
+    }
+
+    /* Navbar */
+    .butnav {
+        font-size: 3em;
+    }
+    /* Navbar FIN */
+    /* Header FIN */
+   
+    /* Presentation */
+
+    .presdiv {
+        display: flex;
+        justify-content: space-between;
+        margin:150px 400px 150px 400px;
+        align-items: center;
+    }
+
+
+    .presep {
+       
+        font-size: 3em;
+    }
+    
+    .presimg {
+        height: 500px;
+        margin-left: 80px;
+        margin: 0;
+        padding: 30px 18px;
+        transition: 0.8s !important;
+    }
+    
+    /* Projets */
+
+    .hsit {
+        font-size: 3em;
+    }
+    
+    .psit {
+        font-size: 2em;
+    }
+    .strongp {
+        font-size: 2em;
+    }
+    
+    .asit {
+        font-size: 3em;
+    }
+
+    .test {
+        
+        width: 100% !important;
+        margin: 70px auto 70px auto;
+    }
+
+    /* projets FIN */
+
+    /* Skill  */
+
+    .hcomp {
+        font-family: Indie Flower;
+        font-size: 4em;
+        margin: 25px auto;
+    }
+
+    .SkillBar {
+        width: 90%;
+        height: 100px;
+        position: relative;
+        background: #222831;
+        margin: 15px auto;
+    }
+
+
+    .Skill-Area {
+        font-size:3em !important;
+    }
+    
+    .PercentText{
+        font-size:3em !important;
+    
+    }
+    
+
+    #Skill-HTML {
+        height: 100px;
+    }
+    #Skill-CSS {
+        height: 100px;
+    }
+    #Skill-jQuery {
+        height: 100px;
+    }
+    #Skill-JS {
+        height: 100px;
+    }
+    #Skill-AJAX {
+        height: 100px;
+    }
+    #Skill-GULP {
+        height: 100px;
+    }
+    #Skill-PHP {
+        height: 100px;
+    }
+    #Skill-SYMF {
+        height: 100px;
+    }
+    #Skill-SQL {
+        height: 100px;
+    }
+    #Skill-BOOTS {
+        height: 100px;
+    }
+
+    /* Skill fin */
+    /* CONTACT */
+
+    .cont{
+        font-size: 5em;
+    }
+    .form {
+        margin: 100px auto;
+    }
+
+    label {
+        font-size: 4em;
+    }
+    input{
+        border: solid 1px #222831 !important;
+    }
+    textarea{
+        border: solid 1px #222831 !important;
+    }
+    .text{
+        font-size: 3em !important;
+    }
+
+    .text:focus {
+        font-size: 3em !important;
+    }
+
+    .btncont{
+        margin-top: 50px;
+        font-size: 5em !important;
+        border: solid 0px white !important;
+    }
+    /* CONTACT FIN */
+
+        /* Footer */
+
+        .foott1 {
+            font-size: 2em !important;
+            height: 70px;
+        }
+
+        
+        .foot2 {
+            height: 200px;
+            font-size: 3em;
+}
+        /* Footer fin */
+/*     
+        .form{
+            margin: 100px auto !important;
+            min-height:50vh !important;
+        }
+
+        .skills{
+            margin: 100px auto !important;
+        }
+} */
+
+
 @media (max-width: 992px) {
 
     /* PRESENTATION */

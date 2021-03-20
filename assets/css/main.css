@@ -227,7 +227,6 @@ textarea {
 }
 /* PROJETS FIN */
 
-
 /* SKILL */
 .hcomp {
     font-family: Indie Flower;
@@ -249,6 +248,7 @@ textarea {
     background: #222831;
     margin: 15px auto;
 }
+
 
 #Skill-HTML {
     width: 100%;
@@ -579,17 +579,17 @@ textarea {
     }
 }
 
-#Skill-SYNF {
-    animation: Animate-SYNF 4s;
-    -webkit-animation: Animate-SYNF 4s;
-    -moz-animation: Animate-SYNF 4s;
-    -o-animation: Animate-SYNF 4s;
+#Skill-SYMF {
+    animation: Animate-SYMF 4s;
+    -webkit-animation: Animate-SYMF 4s;
+    -moz-animation: Animate-SYMF 4s;
+    -o-animation: Animate-SYMF 4s;
     width: 50%;
     height: 50px;
     position: absolute;
     background-color: #538574;
 }
-@keyframes Animate-SYNF {
+@keyframes Animate-SYMF {
     from {
         width: 10px;
     }
@@ -598,7 +598,7 @@ textarea {
         width: 50%
     }
 }
-@-webkit-keyframes Animate-SYNF {
+@-webkit-keyframes Animate-SYMF {
     from {
         width: 10px;
     }
@@ -607,7 +607,7 @@ textarea {
         width: 50%
     }
 }
-@-moz-keyframes Animate-SYNF {
+@-moz-keyframes Animate-SYMF {
     from {
         width: 10px;
     }
@@ -616,7 +616,7 @@ textarea {
         width: 50%
     }
 }
-@-o-keyframes Animate-SYNF {
+@-o-keyframes Animate-SYMF {
     from {
         width: 10px;
     }

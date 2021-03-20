@@ -201,8 +201,8 @@
       </div>
     
       <div class="SkillBar">
-        <div id="Skill-SYNF">
-          <span class="Skill-Area ">SYNFONY</span>
+        <div id="Skill-SYMF">
+          <span class="Skill-Area ">SYMFONY</span>
           <span class="PercentText ">50%</span>
         </div>
       </div>
