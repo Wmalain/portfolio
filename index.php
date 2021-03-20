@@ -65,7 +65,7 @@
 
   <div class="tab-pane fade show active" id="Presentation" role="tabpanel" aria-labelledby="Presentation-tab">
     <div class="presdiv">
-        <p class="presep"data-text="Moi c’est Alain Wehbe, passionné de nouvelle technologie depuis mon plus jeune âge, Adolescent je découvre INTERNET, les sites de l’époque étaient bien différents de ce qu’ils sont aujourd’hui. Je vous propose de mettre cette passion au service de VOS besoins, pour faire le site de VOS rêves !"></p>
+        <p class="presep"data-text="Moi c’est Alain Wehbe, passionné de nouvelles technologies depuis mon plus jeune âge. Adolescent je découvre INTERNET, les sites de l’époque étaient bien différents de ce qu’ils sont aujourd’hui. Je vous propose de mettre cette passion au service de VOS besoins, pour réaliser le site de VOS rêves !"></p>
         <!-- <p class="presep">Moi c’est Alain Wehbe, passionné de nouvelle technologie depuis mon plus jeune âge, Adolescent je découvre INTERNET, les sites de l’époque étaient bien différents de ce qu’ils sont aujourd’hui. Je vous propose de mettre cette passion au service de VOS besoins, pour faire le site de VOS rêves !</p> -->
         <img class="presimg" src="assets/img/moi.png" alt="dessin de moi">
     </div>
@@ -226,7 +226,7 @@
                 <div class="form-group">
                   <label class="col-md-3 control-label" for="name">Nom</label>
                   <div class="">
-                    <input id="name" name="name" type="text" class="form-control" required>
+                    <input id="name" name="name" type="text" class="form-control text" required>
                   </div>
                 </div>
       
@@ -234,7 +234,7 @@
                 <div class="form-group">
                   <label class="col-md-3 control-label" for="email">E-mail</label>
                   <div class="">
-                    <input id="email" name="email" type="email" class="form-control" required>
+                    <input id="email" name="email" type="email" class="form-control text" required>
                   </div>
                 </div>
 
@@ -242,7 +242,7 @@
                 <div class="form-group">
                   <label class="col-md-3 control-label" for="subject">Objet</label>
                   <div class="">
-                    <input id="subject" name="subject" type="text" class="form-control" required>
+                    <input id="subject" name="subject" type="text" class="form-control text" required>
                   </div>
                 </div>
       
@@ -250,7 +250,7 @@
                 <div class="form-group">
                   <label class="col-md-3 control-label" for="message">message</label>
                   <div class="">
-                    <textarea class="form-control" id="message" name="message"  rows="5" required></textarea>
+                    <textarea class="form-control text" id="message" name="message"  rows="5" required></textarea>
                   </div>
                 </div>
       
