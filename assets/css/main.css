@@ -831,3 +831,39 @@ label {
 }
 
 /* FOOTER FIN */
+
+/* VALIDATION ET ERREUR */
+.valid{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.validp{
+text-align: center;
+font-family: Indie Flower, sans-serif;
+font-weight: bold;
+font-size: 2em;
+margin-top:50px;
+color: #222831;
+}
+
+.validbut{
+    text-align: center !important;
+    text-decoration: none !important;
+    font-family: Indie Flower, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin:50px 37%;
+    color: #222831;
+    border: solid 1px #222831 !important;
+    transition: 0.7s;
+
+}
+.validbut:hover{
+    background-color: #f05454;
+    color:white;
+    margin:50px 40%;
+    transition: 0.7s;
+    border: solid 1px #f05454 !important;
+
+}
