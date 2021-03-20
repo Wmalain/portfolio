@@ -12,86 +12,6 @@
 } */
 
 
-
-@media (max-width: 640px) {
-
-    /* HEADER */
-    .headerh1 {
-        padding-top: 20px !important;
-    }
-    /* HEADER FIN */
-
-    /* PRESENTATION */
-    .presdiv {
-        display: flex!important;
-        flex-direction: column-reverse !important;
-        margin: 40px 20px 40px 20px;
-    }
-
-    .presimg {
-        padding: inherit;
-        transition: 0.8s !important;
-    }
-    .presimg:hover {
-        -webkit-transform: scale(1.1) rotate(-10deg);
-        -moz-transform: scale(1.1) rotate(-10deg);
-        -o-transform: scale(1.1) rotate(-10deg);
-        transform: scale(1.1) rotate(-10deg);
-        transition: 0.8s;
-    }
-    .presep {
-        margin: 10 auto;
-        font-size: 1em;
-        text-align: justify-all;
-    }
-
-    .presh2 {
-        Margin-top: 50px;
-        margin-bottom: 10px;
-        margin-left: inherit;
-        text-align: center;
-    }
-    
-    /* PRESENTATION FIN*/
-    .foott1 {
-        display: none;
-    }
-
-    .foott2 {
-        background-color: #222831;
-        text-align: center;
-        color: #ffffff;
-        font-size: 0.7em;
-        height: 30px;
-        font-weight: bold;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: lato, sans-serif;
-    }
-
-    .footp{
-        font-size:0.7em;
-    }
-    /* FOOT */
-}
-
-
-
-@media (max-width: 768px) {
-
-    /* FOOTER */
-    .footp {
-        font-size: 1em;
-    }
-
-    .logo {
-        font-size: 1em;
-    }
-    /* FOOTER FIN */
-}
- 
-
 @media (max-width: 992px) {
 
     /* PRESENTATION */
@@ -141,24 +61,26 @@
     }
     /* FOOTER FIN */
 
+
+
 }
 
-
-
-@media screen and ( min-width: 1500px ){ 
+@media screen and ( min-width: 1970px ) and ( min-height: 1070px ){
+ 
+ 
     /* HEADER */
     .headerh1 {
-        font-size:4em;
-        padding-top: 5px !important;
+        font-size:5em;
+        padding-top: 10px !important;
     }
     .headerh2 {
-        font-size: 3em;
+        font-size: 4em;
 
     }
 
     /* Navbar */
     .butnav {
-        font-size: 2em;
+        font-size: 3em;
     }
     /* Navbar FIN */
     /* Header FIN */
@@ -168,17 +90,14 @@
     .presdiv {
         display: flex;
         justify-content: space-between;
-        margin-top: 100px!important;
-        margin-bottom: 100px !important;;
-        margin-left: 300px !important;;
-        margin-right: 300px !important;;
+        margin:160px 400px 160px 400px !important;
         align-items: center;
     }
 
 
     .presep {
        
-        font-size: 2em;
+        font-size: 3em;
     }
     
     .presimg {
@@ -309,13 +228,92 @@
         /* Footer */
 
         .foott1 {
-            font-size: 1em !important;
+            font-size: 2em !important;
             height: 70px;
         }
 
         
         .foot2 {
             height: 200px;
-            font-size: 2em;
+            font-size: 3em;
 }
 }
+
+@media (max-width: 640px) {
+
+    /* HEADER */
+    .headerh1 {
+        padding-top: 20px !important;
+    }
+    /* HEADER FIN */
+
+    /* PRESENTATION */
+    .presdiv {
+        display: flex!important;
+        flex-direction: column-reverse !important;
+        margin: 40px 20px 40px 20px;
+    }
+
+    .presimg {
+        padding: inherit;
+        transition: 0.8s !important;
+    }
+    .presimg:hover {
+        -webkit-transform: scale(1.1) rotate(-10deg);
+        -moz-transform: scale(1.1) rotate(-10deg);
+        -o-transform: scale(1.1) rotate(-10deg);
+        transform: scale(1.1) rotate(-10deg);
+        transition: 0.8s;
+    }
+    .presep {
+        margin: 10 auto;
+        font-size: 1em;
+        text-align: justify-all;
+    }
+
+    .presh2 {
+        Margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: inherit;
+        text-align: center;
+    }
+    
+    /* PRESENTATION FIN*/
+    .foott1 {
+        display: none;
+    }
+
+    .foott2 {
+        background-color: #222831;
+        text-align: center;
+        color: #ffffff;
+        font-size: 0.7em;
+        height: 30px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: lato, sans-serif;
+    }
+
+    .footp{
+        font-size:0.7em;
+    }
+    /* FOOT
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* FOOTER */
+    .footp {
+        font-size: 1em;
+    }
+
+    .logo {
+        font-size: 1em;
+    }
+    /* FOOTER FIN */
+}
+ 
